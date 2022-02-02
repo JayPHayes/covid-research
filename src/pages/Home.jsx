@@ -11,18 +11,18 @@ function home() {
             <h2 className="text-5xl mb-6 leading-tight font-semibold font-heading">
               Qlik React Covid Sample App
             </h2>
-            <p className="mb-8 text-gray-400 leading-relaxed">
-              Exploring the Front end aspect of creating an Qlik Mashup
-              application with React and Qlik SaaS Business Chart objets. Update
-              more once we implement the Charts and demo the application.
-            </p>
+            <div className="mb-8 text-gray-400 leading-relaxed">
+              <p className="">
+                Exploring the Front end aspect of creating an Qlik Mashup
+                application with React and Qlik SaaS Business Chart objets. Update
+                more once we implement the Charts and demo the application.
+              </p>
+              <p className="text-gray-200">Version: 2022.02.02 - Updates</p>
 
-            <p className="mb-8 text-gray-400 leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-              ipsam blanditiis quam facere pariatur nisi nihil unde ab nam quo
-              laboriosam molestias minima repellendus dicta, doloribus
-              voluptatem architecto eos velit.
-            </p>
+            </div>
+            
+
+ 
             <div>
               <NavLink
                 to="/covidCases"
@@ -30,17 +30,37 @@ function home() {
               >
                 Cases
               </NavLink>
-              <NavLink
-                to="/covidVaccines"
-                className="text-orange-600 hover:underline rounded shadow py-4 px-8 hover:bg-gray-100"
+
+              <a
+                target="blank"
+                href="https://myqlik.qlik.com/tenants/index.html"
+                className="text-green-600 hover:underline rounded shadow py-4 px-8 hover:bg-green-700 hover:text-white border-green-400 border"
               >
-                Vaccinations
-              </NavLink>
+                Qlik Login
+              </a>
             </div>
           </div>
           <div className="lg:w-1/2 px-2">
             <img src="Covid_Main_Logo.svg" alt="" />
-            <div className="grid grid-cols-2 md:flex items-center pt-6 space-x-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 items-center pt-6 space-x-4 space-y-4 ">
+              <div>
+                <img
+                  className="w-44 h-14 mt-4"
+                  src="https://dl.airtable.com/.attachmentThumbnails/375d430ac1772afc437deb78113d8a37/e926082c"
+                  alt="React "
+                />
+              </div>
+              
+
+              <div>
+                <img
+                  className="w-44 h-14 mt-4"
+                  src="https://dl.airtable.com/.attachmentThumbnails/76688f80fd00225d90bcacbcf4c38933/ffe03153"
+                  alt="React Router"
+                />
+              </div>
+              
+
               <div>
                 <img
                   className="w-44 h-14 mt-4"
@@ -48,6 +68,7 @@ function home() {
                   alt="Tailwinds Css"
                 />
               </div>
+              
               <div>
                 <img
                   className="w-44 h-14 mt-4"

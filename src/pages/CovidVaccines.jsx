@@ -11,13 +11,13 @@ function CovidVaccines() {
       <QlikDateCases type={2} />
       <div>
         {/* *Row 01* */}
-        <div className="grid grid-cols-3 space-x-4">
-          <div className="h-72 p-2 ">
-            <div className='space-y-8'>
-              <QlikKpi  title="Total Doses" kpi="qcyJhp"  />
-              <QlikKpi  title="People Fully Vaccinated " kpi="SEsrUU"  />
-              <QlikKpi  title="People Fully Vaccinated %" kpi="EBxAxft"  />
-              <QlikKpi  title="People Fully Vaccinated" kpi="fhFht"  />
+        <div className="grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 space-x-4">
+          <div className="lg:h-72 p-2 ">
+            <div className='space-y-14'>
+              <QlikKpi  title="Total Doses" kpi="qcyJhp"chartType={4}  />
+              <QlikKpi  title="People Fully Vaccinated " kpi="SEsrUU" chartType={2}  />
+              {/* <QlikKpi  title="People Fully Vaccinated %" kpi="EBxAxft" chartType={1}  /> */}
+              <QlikKpi  title="People Fully Vaccinated %" kpi="fhFht" chartType={1}  />
 
             </div>
           </div>
@@ -27,7 +27,7 @@ function CovidVaccines() {
           <QlikCard title="Doeses by Rating Status" kpi="RJTYHLr"  />            
         </div>
 
-        <div className="grid grid-cols-2 h-80 mt-6 space-x-4">
+        <div className="grid md:grid-cols-2 md:h-80 mt-6 space-x-4">
             <QlikCard title="" kpi="JfjPYE"  />
             <QlikCard  title="New Doses given (1 day*) / People Fully Vaccinated" kpi="wmVmww"  />
         </div>
