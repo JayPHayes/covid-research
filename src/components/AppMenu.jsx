@@ -2,9 +2,17 @@ import React, { useState } from "react";
 import { FaCog, FaCogs, FaSignOutAlt, FaSyringe, FaTimes, FaVirus } from "react-icons/fa";
 import AppLogo from "./AppLogo";
 import { Link, NavLink } from "react-router-dom";
+import AppMenuItem from "./AppMenuItem";
 
 function AppMenu({isMenu, setIsMenu}) {
   // console.log('XXXX isMenu: ', isMenu)
+  const menu = [
+    {id: 100, name: "Cases", nav: "covidCases", icon:"FaVirus"},
+    {id: 200, name: "Vaccines", nav: "covidVaccines", icon:"FaSyringe"},
+    // {id: 300, name: "Test Charts", nav: "testcharts", icon:"FaChartPie"},
+    // {id: 400, name: "Bad Page XXX", nav: "badPage", icon:"FaTimes"},
+  ]
+
   return (
     <div>
       <div
@@ -25,7 +33,7 @@ function AppMenu({isMenu, setIsMenu}) {
           bg-white border-r 
           overflow-y-auto"
         >
-          <div className="flex w-full items-center px-6 pb-6 mb-6 lg:border-b border-blue-50">
+          <div className="flex w-full items-center px-6 pb-6 mb-6 lg:border-b border-blue-50" onClick={() => setIsMenu(false)}>
             <AppLogo />
           </div>
           <div className="px-4 pb-6">
@@ -33,38 +41,10 @@ function AppMenu({isMenu, setIsMenu}) {
               Main
             </h3>
             <ul className="mb-8 text-lg font-medium" onClick={() => setIsMenu(false)}>
-              <li>
-                <NavLink to="/covidVaccines"
-                  className="flex items-center pl-3 py-3 pr-2 text-gray-500 hover:bg-orange-300 rounded"
-                >
-                  <span className="inline-block mr-3">
-                    <FaSyringe />
-                  </span>
-                  <span>Vaccines</span>
-                </NavLink>
-              </li>
+              {menu.map((m) => (
+                <AppMenuItem key={m.id} m={m} />
+              ))}
 
-              <li>
-                <NavLink to="/covidCases"
-                  className="flex items-center pl-3 py-3 pr-2 text-gray-500 hover:bg-orange-300 rounded"
-                >
-                  <span className="inline-block mr-3">
-                    <FaVirus />
-                  </span>
-                  <span>Cases</span>
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink to="/badPage"
-                  className="flex items-center pl-3 py-3 pr-2 text-gray-500 hover:bg-orange-300 rounded"
-                >
-                  <span className="inline-block mr-3">
-                    <FaTimes />
-                  </span>
-                  <span>Bad Page</span>
-                </NavLink>
-              </li>
             </ul>
 
             <h3 className="mb-2 text-xs uppercase text-gray-500 font-medium" hidden >
@@ -158,15 +138,18 @@ function AppMenu({isMenu, setIsMenu}) {
 
             {/* *** Settings **** */}
             <div className="pt-8">
-              <NavLink to="/settings" 
+              {/* <NavLink to="/settings" 
                 onClick={() => setIsMenu(false)}
                 className="flex items-center pl-3 py-3 pr-2 text-gray-500 hover:bg-orange-50 rounded"  >
                 <span className="inline-block mr-4">
                   <FaCog className="text-xl" />
                 </span>
                 <span>Settings</span>
-              </NavLink>
-              <NavLink to="log out"
+              </NavLink> */}
+
+
+
+              {/* <NavLink to="log out"
                 onClick={() => setIsMenu(false)}
                 className="flex items-center pl-3 py-3 pr-2 text-gray-500 hover:bg-orange-50 rounded"
               >
@@ -175,7 +158,7 @@ function AppMenu({isMenu, setIsMenu}) {
                   
                 </span>
                 <span>Log Out</span>
-              </NavLink>
+              </NavLink> */}
             </div>
           </div>
         </nav>
