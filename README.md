@@ -1,12 +1,12 @@
 # Qlik React Covid Sample App
 Exploring the Front end aspect of creating an Qlik Mashup application with React and Qlik SaaS Business Chart objets. Update more once we implement the Charts and demo the application.
 
-![Covid Qlik Sample App](image.jpg)
+![Covid Qlik Sample App](https://dl.airtable.com/.attachmentThumbnails/383ae7b6d9af674a8a6fadcb7f94bf88/348bf785)
 
 Sample App: [Covid Qlik Sample App - Version 2022.02.02](https://covid-research.vercel.app/)
 
-![Covid Main](Covid_Main_Logo.svg)
-![Covid Not Found](Covid_NotFound_Logo.svg)
+![Covid Main](https://github.com/JayPHayes/covid-research/blob/2022.02.01-Qlik-SaaS-Starter/public/Covid_Main_Logo.svg)
+![Covid Not Found](https://github.com/JayPHayes/covid-research/blob/2022.02.01-Qlik-SaaS-Starter/public/Covid_NotFound_Logo.svg)
 
 
 
