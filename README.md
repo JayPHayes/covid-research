@@ -5,9 +5,6 @@ Exploring the Front end aspect of creating an Qlik Mashup application with React
 
 Sample App: [Covid Qlik Sample App - Version 2022.02.02](https://covid-research.vercel.app/)
 
-![Covid Main](https://github.com/JayPHayes/covid-research/blob/2022.02.01-Qlik-SaaS-Starter/public/Covid_Main_Logo.svg)
-![Covid Not Found](https://github.com/JayPHayes/covid-research/blob/2022.02.01-Qlik-SaaS-Starter/public/Covid_NotFound_Logo.svg)
-
 
 
 ## React Router v6
