@@ -1,6 +1,37 @@
-# Getting Started with Create React App
+# Qlik React Covid Sample App
+Exploring the Front end aspect of creating an Qlik Mashup application with React and Qlik SaaS Business Chart objets. Update more once we implement the Charts and demo the application.
+
+![Covid Qlik Sample App](image.jpg)
+
+Sample App: [Covid Qlik Sample App - Version 2022.02.02](https://covid-research.vercel.app/)
+
+![Covid Main](Covid_Main_Logo.svg)
+![Covid Not Found](Covid_NotFound_Logo.svg)
+
+
+
+## React Router v6
+Closing in on a decade of client-side routing, React Router v6 takes the best features from previous versions—and its sister project, Reach Router—in our smallest and most powerful package yet.
+
+## React v17.02
+React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Qlik
+Qlik [pronounced "klik"] provides a business analytics platform. The software company was founded in 1993 in Lund, Sweden and is now based in King of Prussia, Pennsylvania, United States. The company's main products are Qlik Replicate and Qlik Sense, both software for business intelligence and data integration 
+
+## Enigma.js
+Enigma.js is a library that helps you communicate with the Qlik Associative Engine in JavaScript environments.
+
+## Nebula.js
+nebula.js is a collection of JavaScript libraries, visualizations, and CLIs that helps developers build and integrate visualizations on top of Qlik's Associative Engine.
+
+
+
+
+
+
 
 ## Available Scripts
 
