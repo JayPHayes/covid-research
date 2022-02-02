@@ -25,17 +25,16 @@ function home() {
             </p>
             <div>
               <NavLink
-                to="/settings"
+                to="/covidCases"
                 className="inline-block py-4 px-8 mr-6 leading-none text-white bg-orange-600 hover:bg-orange-700 font-semibold rounded shadow"
               >
-                Settings
+                Cases
               </NavLink>
               <NavLink
-                to="/appdoco"
+                to="/covidVaccines"
                 className="text-orange-600 hover:underline rounded shadow py-4 px-8 hover:bg-gray-100"
-                href="/"
               >
-                Learn more
+                Vaccinations
               </NavLink>
             </div>
           </div>
