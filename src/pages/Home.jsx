@@ -17,7 +17,7 @@ function home() {
                 application with React and Qlik SaaS Business Chart objets. Update
                 more once we implement the Charts and demo the application.
               </p>
-              <p className="text-gray-200">Version: 2022.02.02 - Updates</p>
+              <p className="text-gray-300 text-xs">Version: 2022.02.08 - Cases to Match Google</p>
 
             </div>
             
