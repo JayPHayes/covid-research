@@ -14,11 +14,15 @@ function CovidCases() {
             <div className="md:h-80 p-2 ">
               <div>
                 <QlikKpi  title="Total Cases" kpi="wQpnnSY" chartType={1} />
+                <QlikKpi  title="Total Cases" kpi="dHnBAh" chartType={2} />
+
                 <QlikKpi  title="Total Deaths" kpi="VNmPev" chartType={3} />
+                <QlikKpi  title="Total Deaths" kpi="qpXA" chartType={3} />
+
                 {/* <QlikKpi  title="Cases Reported Yesterday" kpi="XxEjKFS"  /> */}
                 {/* <QlikKpi  title="Total States - Selected" kpi="QqKP"  /> */}
-                <QlikKpi  title="Total States - New Cases" kpi="buDkf" chartType={2} />
-                <QlikKpi  title="Total States - No New Cases" kpi="TpJBD" chartType={2} />
+                {/* <QlikKpi  title="Total States - New Cases" kpi="buDkf" chartType={2} /> */}
+                {/* <QlikKpi  title="Total States - No New Cases" kpi="TpJBD" chartType={2} /> */}
 
               </div>
             </div>
