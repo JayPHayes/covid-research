@@ -13,7 +13,7 @@ function QlikSearch() {
     if (app.nbl) render();
   }, [app.nbl]);
 
-  return <div id="chartSearch" className="ml-80 bg-amber-600"></div>;
+  return <div id="chartSearch" className="lg:ml-80 bg-amber-600"></div>;
 }
 
 export default QlikSearch;
