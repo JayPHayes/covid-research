@@ -17,7 +17,7 @@ function home() {
                 application with React and Qlik SaaS Business Chart objets. Update
                 more once we implement the Charts and demo the application.
               </p>
-              <p className="text-gray-300 text-xs">Version: 2022.02.18 - Meta Data / Open Graph</p>
+              <p className="text-gray-300 text-xs">Version: 2022.02.18b Open Graph (Main Screen)</p>
 
             </div>
             
