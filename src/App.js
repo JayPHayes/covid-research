@@ -7,6 +7,7 @@ import NotFound from "./pages/NotFound";
 import Home from "./pages/Home";
 import CovidCases from "./pages/CovidCases";
 import CovidVaccines from "./pages/CovidVaccines";
+import PowerBi from "./pages/PowerBi";
 import AppMenu from "./components/AppMenu";
 import Settings from "./pages/Settings";
 import TestChart from "./pages/TestChart";
@@ -47,6 +48,7 @@ function App() {
                 <Route path="/" element={ <Home /> }  />
                 <Route path="/covidVaccines" element={ <CovidVaccines /> }  />
                 <Route path="/covidCases" element={ <CovidCases /> }  />
+                <Route path="/powerbi" element={ <PowerBi /> }  />
 
                 <Route path="/settings" element={ <Settings /> }  />
                 <Route path="/testcharts" element={ <TestChart /> }  />
