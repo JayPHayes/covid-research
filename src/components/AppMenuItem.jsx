@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCalendar, FaCalendarCheck, FaCar, FaChartPie, FaCloud, FaCogs, FaCoins, FaDollarSign, FaHotel, FaLightbulb, FaLocationArrow, FaMapMarked, FaPaperPlane, FaPeopleArrows, FaPlane, FaPlaneArrival, FaPlaneDeparture, FaSuitcase, FaSyringe, FaTimes, FaUtensils, FaVirus } from 'react-icons/fa';
+import { FaCalendar, FaCalendarCheck, FaCar, FaChartPie, FaCloud, FaCogs, FaCoins, FaDollarSign, FaHotel, FaLightbulb, FaLocationArrow, FaMapMarked, FaPage4, FaPaperPlane, FaPeopleArrows, FaPlane, FaPlaneArrival, FaPlaneDeparture, FaSuitcase, FaSyringe, FaTablet, FaTimes, FaUtensils, FaVirus } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 
 function AppMenuItem({m}) {
@@ -33,6 +33,8 @@ function AppMenuItem({m}) {
         {m.icon === 'FaMapMarked' && <FaMapMarked  /> }
         {m.icon === 'FaChartPie' && <FaChartPie  /> }
         {m.icon === 'FaTimes' && <FaTimes  /> }
+        {m.icon === 'FaPage4' && <FaPage4  /> }
+        {m.icon === 'FaTablet' && <FaTablet  /> }
         {m.icon === 'xxx' && <FaChartPie  /> }
       </span>
       <span>{m.name}</span>

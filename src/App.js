@@ -12,6 +12,7 @@ import AppMenu from "./components/AppMenu";
 import Settings from "./pages/Settings";
 import TestChart from "./pages/TestChart";
 import QlikSearch from "./components/QlikSearch";
+import PowerBipad from "./pages/PowerBIpad";
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
                 <Route path="/covidVaccines" element={ <CovidVaccines /> }  />
                 <Route path="/covidCases" element={ <CovidCases /> }  />
                 <Route path="/powerbi" element={ <PowerBi /> }  />
+                <Route path="/powerbipad" element={ <PowerBipad /> }  />
 
                 <Route path="/settings" element={ <Settings /> }  />
                 <Route path="/testcharts" element={ <TestChart /> }  />
