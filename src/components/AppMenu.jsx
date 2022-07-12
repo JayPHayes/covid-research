@@ -9,8 +9,9 @@ function AppMenu({isMenu, setIsMenu}) {
   const menu = [
     {id: 100, name: "Cases", nav: "covidCases", icon:"FaVirus"},
     {id: 200, name: "Vaccines", nav: "covidVaccines", icon:"FaSyringe"},
-    {id: 300, name: "Cases - Power BI", nav: "powerbi", icon:"FaChartPie"},
-    {id: 400, name: "Cases - iPad", nav: "powerbipad", icon:"FaTablet"},
+    // {id: 300, name: "Cases - Power BI", nav: "powerbi", icon:"FaChartPie"},
+    {id: 400, name: "Cases - Qlik", nav: "powerbipad", icon:"FaTablet"},
+    // {id: 400, name: "AL Counties", nav: "alcounties", icon:"FaMapMarked"},
     // {id: 300, name: "Test Charts", nav: "testcharts", icon:"FaChartPie"},
     // {id: 400, name: "Bad Page XXX", nav: "badPage", icon:"FaTimes"},
   ]

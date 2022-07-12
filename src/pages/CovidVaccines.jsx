@@ -1,5 +1,6 @@
 import React from 'react';
 import QlikCard from '../components/QlikCard';
+import QlikCardTable from '../components/QlikCardTable';
 import QlikDateCases from '../components/QlikDateCases';
 import QlikKpi from './QlikKpi';
 
@@ -36,13 +37,13 @@ function CovidVaccines() {
             <QlikCard  title="New Doses given (1 day*) / People Fully Vaccinated" kpi="wmVmww"  />
         </div>
 
-        <div className="grid grid-cols-1 h-[80] mt-6 space-x-4">
-            <QlikCard  title="Details" kpi="WYBLm"  />
+        <div className="grid grid-cols-1 h-[60rem] mt-6 space-x-4">
+            <QlikCardTable  title="Details" kpi="WYBLm"  />
         </div>
 
-        <div className="grid grid-cols-1 h-80 mt-6 space-x-4">
+        {/* <div className="grid grid-cols-1 h-80 mt-6 space-x-4">
             <QlikCard  title="Map" kpi="ABcbYq"  />
-        </div>
+        </div> */}
 
       </div>
     </div>

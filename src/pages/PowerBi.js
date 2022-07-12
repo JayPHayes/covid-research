@@ -11,6 +11,7 @@ function PowerBi() {
                     className='h-screen'
                     title="CovidResearch_20220226_Mobile" 
                     width="380" 
+                    src="https://o5vinkn07und8n1.us.qlikcloud.com/single/?appid=269e18ce-5491-400a-b984-49f317b27ffc&sheet=bbace998-094f-44eb-a6f5-9421bdd86866&theme=horizon&opt=ctxmenu,currsel"
                     // src="https://app.powerbi.com/view?r=eyJrIjoiZmFlZjk1OTgtNzA2ZS00ZDRiLTljN2ItNWZmOGVmMjhlZDdmIiwidCI6IjFkMmI5N2Y2LTMyMjgtNDFkZC1iYzk1LTQwZDE2ODU5MGU2NSIsImMiOjN9" 
                     frameBorder={0}
                     allowFullScreen={true}>
