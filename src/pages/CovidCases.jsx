@@ -1,5 +1,6 @@
 import React from "react";
 import QlikCard from "../components/QlikCard";
+import QlikCardTable from "../components/QlikCardTable";
 import QlikDate from "../components/QlikDateCases";
 import QlikKpi from "./QlikKpi";
 
@@ -38,7 +39,7 @@ function CovidCases() {
           </div>
 
           <div className="grid grid-cols-1 h-72 mt-6 space-x-4">
-              <QlikCard  title="Details" kpi="pLTjVz"  />
+              <QlikCardTable  title="Details" kpi="pLTjVz"  />
           </div>
 
         </div>

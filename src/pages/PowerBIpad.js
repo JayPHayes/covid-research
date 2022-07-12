@@ -19,7 +19,13 @@ function PowerBipad() {
             </div>
         
             <div className='hidden md:block'>
-                <h1>Power BI: Covid Research 20220226</h1>
+                <h1>Power BI Qlik IFrame: Covid Research</h1>
+                {/* <iframe className='w-full h-[80vh]'
+                    title="CovidResearch_20220226 - Cases" 
+                    src="https://o5vinkn07und8n1.us.qlikcloud.com/single/?appid=269e18ce-5491-400a-b984-49f317b27ffc&sheet=bbace998-094f-44eb-a6f5-9421bdd86866&theme=horizon&opt=ctxmenu" >
+                </iframe> */}
+
+
                 <iframe className=' h-screen'
                     title="CovidResearch_20220226 - Cases" 
                     width="100%"  

@@ -13,6 +13,7 @@ import Settings from "./pages/Settings";
 import TestChart from "./pages/TestChart";
 import QlikSearch from "./components/QlikSearch";
 import PowerBipad from "./pages/PowerBIpad";
+import ALCounties from "./pages/ALCounties";
 
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
                 <Route path="/covidCases" element={ <CovidCases /> }  />
                 <Route path="/powerbi" element={ <PowerBi /> }  />
                 <Route path="/powerbipad" element={ <PowerBipad /> }  />
+                <Route path="/alcounties" element={ <ALCounties /> }  />
 
                 <Route path="/settings" element={ <Settings /> }  />
                 <Route path="/testcharts" element={ <TestChart /> }  />
